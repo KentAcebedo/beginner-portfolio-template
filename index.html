@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-x-hidden max-w-full">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto md:px-6 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3 md:gap-4">
+                <a href="#" class="text-2xl font-bold text-gray-800">Portfolio</a>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="text-gray-600 hover:text-gray-800 transition-colors">Home</a></li>
+                    <li><a href="#about" class="text-gray-600 hover:text-gray-800 transition-colors">About</a></li>
+                    <li><a href="#projects" class="text-gray-600 hover:text-gray-800 transition-colors">Projects</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-gray-800 transition-colors">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home section -->
+        <section id="home" class="bg-gray-50 py-20">
+            <div class="container mx-auto px-6">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl font-bold text-gray-900 mb-4">
+                        Hi, I'm John Doe
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-6">
+                        A Frontend Developer passionate about creating beautiful and functional web experience.
+                    </p>
+                    <a href="#contact" class="inline-block bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+         <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">
+                    About Me
+                </h2>
+
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-lg text-gray-600 mb-4 leading-relaxed">
+                        I'm a passionate frontend developer with a love for clean code and beautiful user interfaces. 
+                        I specialize in creating responsive, accessible web applications that provide excellent user experiences.
+                    </p>
+
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+                        or sharing knowledge with the developer community.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
+                            HTML
+                        </span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
+                            CSS
+                        </span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
+                            JavaScript
+                        </span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
+                            React
+                        </span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
+                            Tailwind CSS
+                        </span>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Project Section -->
+          <section id="projects" class="bg-gray-50 py-20">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">
+                        My Projects
+                    </h2>
+
+                    <!-- Responsive Grid: 1 column mobile, 2 tablet, 3 desktop -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                        <!-- Project card 1 -->
+                        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                            <div class="h-48 bg-gray-200"></div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                                    Project One
+                                </h3>
+                                <p class="text-gray-600 mb-4">
+                                    A beautiful web application built with modern technologies.
+                                </p>
+
+                                <div class="flex gap-2">
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        HTML
+                                    </span>
+
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        CSS
+                                    </span>
+
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        JavaScript
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project card 2 -->
+                        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                            <div class="h-48 bg-gray-200"></div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                                    Project One
+                                </h3>
+                                <p class="text-gray-600 mb-4">
+                                    A beautiful web application built with modern technologies.
+                                </p>
+
+                                <div class="flex gap-2">
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        HTML
+                                    </span>
+
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        CSS
+                                    </span>
+
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        JavaScript
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project card 3 -->
+                        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                            <div class="h-48 bg-gray-200"></div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                                    Project One
+                                </h3>
+                                <p class="text-gray-600 mb-4">
+                                    A beautiful web application built with modern technologies.
+                                </p>
+
+                                <div class="flex gap-2">
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        HTML
+                                    </span>
+
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        CSS
+                                    </span>
+
+                                    <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                                        JavaScript
+                                    </span>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+          </section>
+
+          <!-- Contact section -->
+           <section id="contact" class="py-20">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">
+                        Get In Touch
+                    </h2>
+
+                    <div class="max-w-2xl mx-auto">
+                        <form class="space-y-6">
+                            <!-- name input -->
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">
+                                    Name
+                                </label>
+                                <input 
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus-ring-gray-800 focus:border-transparent"
+                                    placeholder="Enter your name">
+                            </div>
+
+                            <!-- email input -->
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">
+                                    Email
+                                </label>
+                                <input 
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus-ring-gray-800 focus:border-transparent"
+                                    placeholder="your.email@example.com">
+                            </div>
+
+                            <!-- message input -->
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">
+                                    Message
+                                </label>
+                                <input 
+                                    id="message"
+                                    name="message"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus-ring-gray-800 focus:border-transparent"
+                                    placeholder="Enter message here...">
+                            </div>
+
+
+                            <!-- name input -->
+                            <button
+                                type="submit"
+                                class="w-full bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors font-medium">
+                                Send Message
+                            </button>
+
+                            
+                        </form>
+                    </div>
+                </div>
+           </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <!-- copyright -->
+                 <div class="mb-4 md:mb-0">
+                    <p class="text-gray-400">
+                        &copy; 2024 John Doe. All rights reserved.
+                    </p>
+                 </div>
+
+                 <!-- Footer navigation -->
+                  <nav aria-label="Footer navigation">
+                    <ul class="flex space-x-6">
+                        <li>
+                            <a href="#home" class="text-gray-400 hover:text-white transition-colors">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="text-gray-400 hover:text-white transition-colors">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#projects" class="text-gray-400 hover:text-white transition-colors">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="text-gray-400 hover:text-white transition-colors">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
