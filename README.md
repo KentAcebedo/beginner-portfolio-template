@@ -51,3 +51,6 @@ Free to use for personal and commercial projects.
 ## Credits
 
 Built as a learning project to practice HTML, CSS, and responsive design.
+
+## View the web here
+https://beginner-portfolio-design.netlify.app/
